@@ -30,7 +30,7 @@ This demo shows how prediction markets can run on that model using simulated tok
 
 1. Clone repo
 
-git clone https://github.com/YOURNAME/anoma-intent-market.git
+git clone https://github.com/thereisnoadekunle/anoma-intent-market.git
 cd anoma-intent-market
 
 2. Install dependencies
