@@ -1,0 +1,15 @@
+module.exports = [
+  {
+    title: 'btc_above_120k_dec',
+    question: 'Will BTC be above $120k by 2025-12-31?',
+    outcomes: ['yes', 'no'],
+    expiry: Date.now() + 7 * 24 * 3600 * 1000
+  },
+  {
+    title: 'eth_30k_by_aug',
+    question: 'Will ETH be above $30k by 2025-08-31?',
+    outcomes: ['yes', 'no'],
+    expiry: Date.now() + 14 * 24 * 3600 * 1000
+  }
+  // add more seed markets here
+];
