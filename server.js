@@ -8,6 +8,8 @@ const adminRouter = require('./src/routes/admin');
 const faucet = require('./src/faucet');
 const solver = require('./src/solver');
 const store = require('./src/store');
+const authRouter = require('./src/routes/auth');
+app.use('/api/auth', authRouter);
 
 const app = express();
 app.use(cors());
