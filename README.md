@@ -1,9 +1,5 @@
 # ANOMA-Simulated-INTENT-CENTRIC-PREDICTION-MARKET 
 
-Here’s a clean README.md draft you can drop straight into your repo 👇
-
-⸻
-
 🔮 Anoma Intent-Centric Prediction Market (Simulation Demo)
 
 This project is a simulation of an intent-centric prediction market built on the design principles of Anoma.
@@ -14,21 +10,19 @@ This demo shows how prediction markets can run on that model using simulated tok
 ⸻
 
 ✨ Features
-	•	Daily faucet → every user gets 10,000 $XAN + 5,000 USDC test tokens.
-	•	30–40 seeded markets → crypto, macro, sports, culture, degen.
-	•	Intent submission flow → state conviction (yes/no), stake tokens, register intent.
-	•	Solver simulation → auto-matches intents across outcomes.
-	•	Oracle resolution (admin) → resolve market outcomes and pay winners.
-	•	Payouts → pari-mutuel style, with fees for treasury + solver simulation.
-	•	In-memory DB → easy to reset and experiment. (Swap to Postgres later.)
-
-⸻
+-	Daily faucet → every user gets 10,000 $XAN + 5,000 USDC test tokens.
+-	30–40 seeded markets → crypto, macro, sports, culture, degen.
+-	Intent submission flow → state conviction (yes/no), stake tokens, register intent.
+-   Solver simulation → auto-matches intents across outcomes.
+-  racle resolution (admin) → resolve market outcomes and pay winners.
+-  Payouts → pari-mutuel style, with fees for treasury + solver simulation.
+- In-memory DB → easy to reset and experiment. (Swap to Postgres later.)
 
 🛠 Tech Stack
-	•	Backend: Node.js, Express, body-parser, uuid, CORS.
-	•	Data: in-memory store (planned: Postgres).
-	•	Auth: placeholder for Twitter/Discord OAuth (demo uses ?user=twitter:alice).
-	•	Solver Engine: simple auto-matcher, expandable into economic solver.
+🔷	Backend: Node.js, Express, body-parser, uuid, CORS.
+🔷	Data: in-memory store (planned: Postgres).
+🔷	Auth: placeholder for Twitter/Discord OAuth (demo uses ?user=twitter:alice).
+🔷	Solver Engine: simple auto-matcher, expandable into economic solver.
 
 ⸻
 
